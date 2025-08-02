@@ -30,7 +30,10 @@ Display the name and confidence score
 Save an image if an unknown person appears multiple times
 
 📂 Files
-collect_faces.py – for collecting face data
-train_and_recognize.py – for training and recognition
+create_datapy – for collecting face data
+
+facerecognize.py – for training and recognition
+
 haarcascade_frontalface_default.xml – Haar cascade XML for face detection
+
 datasets/ – automatically created during face capture
