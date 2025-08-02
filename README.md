@@ -1,12 +1,14 @@
-# 📸 Face Dataset Collection with OpenCV
+# 👤 Face Detection & Recognition System using OpenCV (FisherFaces)
 
-This project captures 100 grayscale face images of a person using Haar Cascade face detection and stores them in a labeled directory structure. It's designed as a data collection step for building a face recognition system.
+This project implements a full face recognition pipeline using OpenCV. It collects face images, trains a recognition model using the **FisherFaceRecognizer**, and recognizes faces in real time from a webcam feed.
 
-## 🧠 What It Does
+## 📸 Features
 
-- Detects faces in real-time from a webcam using Haar Cascades.
-- Captures and saves 100 face samples resized to a standard shape (130x100).
-- Saves images in a dataset folder under the specified person's name.
+- Real-time face detection using Haar Cascades
+- Dataset creation and automatic labeling
+- Model training using FisherFaceRecognizer
+- Real-time recognition with name and confidence display
+- Logs unknown faces and saves image if unidentified for long
 
 
 
